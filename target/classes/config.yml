@@ -1,0 +1,26 @@
+egg-count: 15
+
+egg-hunt-time: 10
+
+messages:
+  start: "&6[Caça aos Ovos] A caça aos ovos começou! Você tem %time% minutos para coletar ovos!"
+  egg-found: "&aVocê encontrou um ovo! Total: %count%"
+  winner: "&6[Caça aos Ovos] O vencedor é %player% com %count% ovos!"
+  no-winner: "&c[Caça aos Ovos] O evento terminou sem vencedores!"
+  error-coords: "&c[Caça aos Ovos] Erro: Coordenadas não configuradas. Use /setcorner1, /setcorner2 e /setwaitingroom."
+
+# Location settings - these will be set by the commands
+# Do not edit these values manually
+# corner1:
+#   x: 0
+#   y: 0
+#   z: 0
+# corner2:
+#   x: 0
+#   y: 0
+#   z: 0
+# waitingRoom:
+#   x: 0
+#   y: 0
+#   z: 0
+# world: world

@@ -1,0 +1,32 @@
+name: EggHunt
+version: 1.5
+main: org.example.kau.eggHunt.EggHunt
+api-version: 1.20
+
+commands:
+
+commands:
+  starthunt:
+    description: Inicia o evento de caça aos ovos
+    usage: /starthunt
+    permission: egghunt.admin
+  endevent:
+    description: Encerra o evento de caça aos ovos
+    usage: /endevent
+    permission: egghunt.admin
+  event:
+    description: Abre a GUI de configuração do evento
+    usage: /event
+    permission: egghunt.admin
+  setcorner1:
+    description: Define o primeiro canto da área de jogo
+    usage: /setcorner1
+    permission: egghunt.admin
+  setcorner2:
+    description: Define o segundo canto da área de jogo
+    usage: /setcorner2
+    permission: egghunt.admin
+  setwaitingroom:
+    description: Define a sala de espera
+    usage: /setwaitingroom
+    permission: egghunt.admin
